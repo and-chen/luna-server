@@ -1,0 +1,19 @@
+doctype html
+html
+	body
+		h2 Sign Up
+
+		form(method="POST", action="/signup")
+			label(for="username") Username: 
+			input(type="text", name="username")
+			br
+			label(for="password") Password: 
+			input(type="password", name="password")
+			br
+			label(for="password2") Re-enter Password: 
+			input(type="password", name="password2" value="")
+			br
+			input(type="submit", value="Sign Up")
+
+		div= errorMessage	
+
