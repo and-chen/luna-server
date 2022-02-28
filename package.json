@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lunalqk/unityserver.git"
+    "url": "git+https://github.com/and-chen/luna-server.git"
   },
   "author": "Luna Liu",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/lunalqk/unityserver/issues"
+    "url": "https://github.com/and-chen/luna-server/issues"
   },
-  "homepage": "https://github.com/lunalqk/unityserver#readme",
+  "homepage": "https://github.com/and-chen/luna-server#readme",
   "dependencies": {
     "express": "^4.17.1",
     "express-session": "^1.17.2",
